@@ -8,11 +8,13 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    align-items: center;
 }
 
 .side-menu{
+    position: fixed;
     width: 220px;
-    height: 100vh;
+    height: 1701px;
     left: 0px;
     top: 0px;
     bottom: 0px;
@@ -39,8 +41,6 @@ html, body{
     color: white;
 }
 .side-bar img{
-    background: url(dewey.png);
-    position: static;
     width: 220px;
     height: 258px;
     background-color: aquamarine;
@@ -59,7 +59,7 @@ html, body{
     line-height: 18.75px;
     font-size: 15px;
     color: #725C5C;
-    transition: .4s;
+    transition: .2s;
 }
 .menu-desativado button:hover{
     background-color:  #FDF1EB;
@@ -67,7 +67,7 @@ html, body{
 }
 header{
     position: absolute;
-    width: 1146px;
+    width:1129px;
     height: 68px;
     left: 220px;
     top: 0px;
@@ -95,9 +95,9 @@ header h2{
 }
 .btn_header{
     position: absolute;
-    width: 108px;
+    width: 110px;
     height: 29px;
-    left: 813px;
+    left: 791px;
     top: 21px;
     background-color: #FDF1EB;
     border: 2px solid #CCCCCC;
@@ -125,9 +125,9 @@ header h2{
 .login{
     position: absolute;
     width: 202px;
-    height: 34px;
-    left: 906px;
-    top: 17px; 
+    height: 30px;
+    left: 890px;
+    top: 17px;
 }
 .login img{
     position: absolute;
@@ -163,4 +163,31 @@ header h2{
     line-height: 15px;
     text-align: right;
     color: #333333;
+}
+
+main{
+    position: absolute;
+    width: 1059px;
+    height: 1382px;
+    left: 263px;
+    top: 88px;
+    background-color: #333333;
+}
+main h2{
+  position: absolute;
+height: 54px;
+left: 0px;
+right: 273px;
+top: 0px;
+
+font-family: var(--font1);
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 25px;
+/* or 125% */
+
+letter-spacing: 0.05em;
+
+color: #ED7839;
 }
