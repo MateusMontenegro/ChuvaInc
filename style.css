@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+:root{
+    --font1: 'Roboto', sans-serif ; 
+    --font2: 'Quicksand', sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.side-menu{
+    width: 220px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px; 
+}
+.slaca-2019{
+    width: 220px;
+    height: 68px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+.slaca-2019 h1{
+    font-family: var(--font1);
+    font-style:normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}
+.side-bar img{
+    background: url(dewey.png);
+    position: static;
+    width: 220px;
+    height: 258px;
+    background-color: aquamarine;
+}
+.menu-desativado button{
+    width: 220px;
+    height: 33px;
+    background-color: white;
+    border:none;
+    text-align: start;
+    border-bottom: 2px solid #E7E7E7 ;
+    padding-left: 24px;
+    font-family: var(--font2);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 18.75px;
+    font-size: 15px;
+    color: #725C5C;
+    transition: .4s;
+}
+.menu-desativado button:hover{
+    background-color:  #FDF1EB;
+    border-left: 5px solid  orange;
+}
+header{
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 220px;
+    top: 0px;
+    background-color: #FDF1EB;
+  
+}
+header h3{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1px;
+    color: #725C5C;
+    margin-left: 50px;
+    margin-bottom: -10px;
+}
+header h2{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 22px;
+    width: 643px;
+    line-height: 26px;
+    margin-left: 50px;
+    margin-bottom: -7px;
+    color: #725C5C;
+}
+.btn_header{
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 813px;
+    top: 21px;
+    background-color: #FDF1EB;
+    border: 2px solid #CCCCCC;
+    border-radius: 3px;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    transition: .3s;
+}
+.btn_header:hover{
+    border: 2px solid  orange;
+}
+#drop-down{
+    width: 9.5px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+#world{
+    margin-top: 0px;
+    width: 19px;
+}
+.login{
+    position: absolute;
+    width: 202px;
+    height: 34px;
+    left: 906px;
+    top: 17px; 
+}
+.login img{
+    position: absolute;
+    left: 98.05%;
+    right: 3.3%;
+    top: 15%;
+    bottom: 27.48%;
+}
+.login h3{
+    position: absolute;
+    height: 243px;
+    width: 77px;
+    top: -10px;
+    left: 60px;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #333333;
+}
+.login p{
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 24px;
+    top: 9px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
